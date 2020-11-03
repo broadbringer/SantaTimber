@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UI.Buttons;
 using UI.Windows;
 using UnityEngine;
@@ -21,6 +22,7 @@ namespace UI.Windows
         public void OnHidden()
         {
             throw new System.NotImplementedException();
+            
         }
     }    
 }
