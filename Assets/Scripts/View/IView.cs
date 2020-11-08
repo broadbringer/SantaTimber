@@ -1,9 +1,9 @@
-﻿namespace UI.Windows
+﻿namespace View
 {
-    public interface IWindow
+    public interface IView
     {
         void OnShown();
         void OnHidden();
-    }
+    }    
 }
 
