@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 using UnityEngine.UI;
 
 namespace View.Window
@@ -12,14 +13,14 @@ namespace View.Window
         [SerializeField] private RectTransform _settingButton;
         [SerializeField] private RectTransform _shopButton;
         [SerializeField] private RectTransform _coinsRect;
-        [SerializeField] private Text _coinValue;
+        [SerializeField] private TextMeshProUGUI _coinValue;
         
                          
         public override void OnShown()
         {
-            _playButton.DOShakeRotation(2f, new Vector3(0, 45, 0));
-            _settingButton.DOShakeRotation(2f, new Vector3(0, 45, 0));
-            _shopButton.DOShakeRotation(2f, new Vector3(0, 45, 0));
+            _playButton.DOMove(new Vector3(), 1);
+            _settingButton.DOMove(new Vector3(), 1);
+            _shopButton.DOMove(new Vector3(), 1);
         }
 
         public void DrawCoinValue(float value)

@@ -10,10 +10,14 @@ namespace ViewModel
     {
         protected IView _view;
         protected IModel _model;
-        
+
+        protected virtual void Start()
+        {
+            Bind();
+        }
         public virtual void Bind()
         {
-            _view = GetComponent<ViewBase>();
+            
         }
     }    
 }

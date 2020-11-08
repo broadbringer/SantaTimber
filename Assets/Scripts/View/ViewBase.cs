@@ -4,7 +4,7 @@ namespace View
 {
     public class ViewBase : MonoBehaviour, IView
     {
-        public virtual void OnShown()
+        public  virtual void OnShown()
         {
             throw new System.NotImplementedException();
         }
