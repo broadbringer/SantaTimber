@@ -17,7 +17,6 @@ public class MenuWindow : MonoBehaviour
     public Button SettingsButton => _settingButton;
     public RectTransform CoinsValueTransform => _coinsValueParrent;
     
-    
     private void OnShown()
     {
         //TODO Реализовать анимацию
