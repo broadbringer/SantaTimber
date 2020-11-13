@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using SantaTimber.Controllers;
+﻿using SantaTimber.Controllers;
+using SantaTimber.Views;
 using UnityEngine;
 using Zenject;
 
